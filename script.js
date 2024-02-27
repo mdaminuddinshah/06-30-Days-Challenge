@@ -48,3 +48,5 @@ let roundedPercent = Math.round((correctAnswer / totalQuestion) * 100);
 
 console.log('You did correct', correctAnswer, 'answer of', totalQuestion, 'question');
 console.log('your grade is ', roundedPercent.toString() + '%');
+
+// guess number

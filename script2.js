@@ -89,5 +89,18 @@ setInterval(()=>{
     document.getElementById('test2').textContent = getDate4.toLocaleTimeString();
 }, 1000)
 
+// how to change default color to other color ?
+// using setTimeout and DOM
+
+// how to make the color change repeatedly ?
+
+// how to display value after user insert value inside input tag ??
+// use .value, onchange,
+
+const displayNama = () => {
+    let value = document.getElementById('input').value;
+    document.getElementById('value').textContent = `The value is: ${value}`
+}
+
 
 

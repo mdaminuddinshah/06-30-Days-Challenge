@@ -81,6 +81,13 @@ setTimeout(()=>{
     document.getElementById('test').textContent = getDate3.toLocaleDateString()
 }, 3000)
 
-// how to make latest time and continue updating ??
+// how to make latest time and continue clicking ??
 // use setInterval()
 // setInterval, run repeatedly
+setInterval(()=>{
+    let getDate4 = new Date();
+    document.getElementById('test2').textContent = getDate4.toLocaleTimeString();
+}, 1000)
+
+
+
